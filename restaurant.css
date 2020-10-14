@@ -1,0 +1,162 @@
+body
+{
+  
+  margin: auto;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+.barreFix
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.3em;
+	font-family: Courrier NEM;
+	font-style: italic;
+	padding-left:60px;
+	padding-top: 80px;
+	background-image: url(../restaurant/img/fourchettes.jpg);
+	background-attachment: fixed;
+
+
+}
+.barreFix p 
+{
+	border: 1px black solid;
+	padding-left:70px;
+	padding-right:70px;
+	padding-top: 12px;
+	padding-bottom:12px;
+	width: 10%;
+	text-align: center;
+
+}
+.barreFix h2
+{
+	font-size:1.0em;
+}
+.barreFix h1
+{
+	font-size: 2.3em;
+}
+#avtor
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+article
+{
+	
+	margin: 120px;
+	margin-left:250px;
+	font-style: italic;
+}
+#avtor1
+{
+	flex-direction: column;
+	text-align: center;
+	margin-left: 90px;
+}
+#avtor1 h1
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-style: italic;
+}
+
+#food
+{
+	height: 130%;
+	display: flex;
+
+
+}	
+.nourriture p 
+{
+   width: 60%;
+   height: 10%;
+   margin: 60px;
+}
+.nourriture
+{
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.nourriture:nth-child(2)
+{
+	align-self: flex-start;
+	margin-top: 100px;
+	
+}
+.nourriture:nth-child(4)
+{
+	align-self:flex-start;
+	margin-top: 100px;
+}
+section h1
+{
+	font-size: 2.0em;
+	font-style: italic;
+}
+
+#tarifs
+{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+.tarif
+{
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+} 
+.tarif h2
+{
+	text-decoration: underline;
+}
+.tarif h3
+{
+	text-decoration: line-through;
+}
+.tarif h4
+{
+	border: solid black 1px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-right: 20px;
+	padding-left:0px;
+	margin: 90px;
+	text-align:center;
+}
+section h1
+{
+	text-align: center;
+}
+#page4
+{
+	background-color: rgb(249, 248 ,240);
+	font-style: italic;
+}
+ a
+{
+	
+	border-top: none;
+	text-decoration-color: black;
+}
+#footers
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(249, 248 ,240);
+	border-top: black solid 3px;
+}
